@@ -1,0 +1,22 @@
+{
+  "name": "minimal-node-express-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JimmyBastos/minimal-node-express-skeleton.git",
+  "author": "Jimmy Bastos <jimmy@brance.me>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon",
+    "lint:fix": "eslint --fix ./src/**/*.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "celebrate": "^15.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "eslint": "^7.30.0"
+  }
+}
